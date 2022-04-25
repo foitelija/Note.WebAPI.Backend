@@ -16,7 +16,7 @@ namespace Notes.WebApi
         public static void Main(string[] args)
         {
             //вызов метода инициализации БД
-            // call DB initializations
+            // call DB initializations 
             var host = CreateHostBuilder(args).Build();
 
             using (var scope = host.Services.CreateScope())

@@ -35,7 +35,7 @@ namespace Notes.WebApi
             services.AddPersistence(Configuration);
             services.AddControllers();
 
-            //add CORS 
+            //add CORS  
             // CORS - совместное использование ресурсовв между разными сточниками
 
             services.AddCors(options =>
