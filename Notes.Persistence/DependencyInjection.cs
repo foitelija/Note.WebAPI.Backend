@@ -12,7 +12,7 @@ using Notes.Application.Interfaces;
     // add and reg DB context 
 namespace Notes.Persistence
 {
-    static class DependencyInjection
+    public static class DependencyInjection
     {
         public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {

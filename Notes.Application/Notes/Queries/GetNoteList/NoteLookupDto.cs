@@ -9,7 +9,7 @@ using AutoMapper;
 
 namespace Notes.Application.Notes.Queries.GetNoteList
 {
-    class NoteLookupDto : IMapWith<Note>
+   public class NoteLookupDto : IMapWith<Note>
     {
         public Guid Id{ get; set; }
         public string Title { get; set; }

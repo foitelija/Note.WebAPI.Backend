@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace Notes.Application
 {
-   static class DependencyInjection
+   public static class DependencyInjection
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {

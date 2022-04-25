@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace Notes.Application.Notes.Queries.GetNoteList
 {
-    class GetNoteListQueryHandler : IRequestHandler<GetNoteListQuery, NoteListVm>
+    public class GetNoteListQueryHandler : IRequestHandler<GetNoteListQuery, NoteListVm>
     {
         private readonly INotesDbContext _dbContext;
         private readonly IMapper _mapper;

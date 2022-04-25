@@ -5,7 +5,7 @@ using AutoMapper;
 
 namespace Notes.Application.Common.Mappings
 {
-    class AssemblyMappingProfile : Profile
+    public class AssemblyMappingProfile : Profile
     {
         public AssemblyMappingProfile(Assembly assembly)
         {
