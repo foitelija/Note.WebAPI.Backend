@@ -13,6 +13,7 @@ using System.Reflection;
 using Notes.Application.Interfaces;
 using Notes.Application;
 using Notes.Persistence;
+using Notes.WebApi.Middleware;
 
 namespace Notes.WebApi
 {
@@ -57,6 +58,7 @@ namespace Notes.WebApi
                 app.UseDeveloperExceptionPage();
             }
             // указываем, что будет использовать приложение, порядок - имеет значение
+            app.UseCustomExceptionHandler();
             app.UseRouting();
             app.UseHttpsRedirection();
             app.UseCors("AllowAll");
