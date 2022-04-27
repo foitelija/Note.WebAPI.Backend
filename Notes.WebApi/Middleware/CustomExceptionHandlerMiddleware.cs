@@ -15,7 +15,7 @@ namespace Notes.WebApi.Middleware
 
         public CustomExceptionHandlerMiddleware(RequestDelegate next) => _next = next;
 
-        public async Task Inove(HttpContext context)
+        public async Task Invoke(HttpContext context)
         {
             try
             {
